@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Work Sans", sans-serif;
+}
+
+
+html {
+    scroll-behavior: smooth;
+    color: #fff;
+  }
+
+
+.NavContainer{
+    width: 100%;
+    height: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 10px;
+    align-items: center;
+    text-align: center;
+    background: black;
+
+}
+
+
+.rightNavLists{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+
+
+}
+
+
+.rightNavLists input{
+    padding: 4px 8px;
+    padding-right: 34px;
+    border-radius: 10px;
+
+}
+
+
+.rightNavLists img{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    right: 19px;
+    top: 21px;
+    align-items: center;
+}
+
+
+li{
+    cursor: pointer;
+}
+
+
+
+/* section 1 */
+
+.mainContainer{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+
+.slider {
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.slider img {
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+}
+
+
+
+/* footer container */
+
+
+.footerContainer{
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 500px;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 0;
+
+
+}
+
+.titleContaner{
+    display: block;
+    margin-top: 10px;
+}
+
+
+.socialContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    line-height: 2;
+    font-size: 35px;
+
+}
+
+
+.socialContainer span{
+    display: flex;
+    justify-content: center;
+
+    gap: 13px;
+   
+}
+
+.socialContainer img {
+    height: 30px;
+    width: 30px;
+    background: white;
+    border-radius: 7px;
+}
+
+.linkContainer{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 7rem;
+    margin-top: 20px;
+    line-height: 2;
+    font-size: 18px;
+}
+
+
+.copyright{
+    display: flex;
+    margin-top: 67px;
+    background-color: slategray;
+    width: 100%;
+    height: 224px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+
+}
+
+
+
+
+
+
+
+
